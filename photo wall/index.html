@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+	<div class="wrapper">
+		<img src="./images/BJ-1.jpg" alt="BJ">
+		<img src="./images/BJ-2.jpg" alt="BJ">
+		<img src="./images/BJ-3.jpg" alt="BJ">
+		<img src="./images/BJ-4.jpg" alt="BJ">
+		<img src="./images/BJ-5.jpg" alt="BJ">
+		<img src="./images/BJ-6.jpg" alt="BJ">
+		<img src="./images/BJ-7.jpg" alt="BJ">
+		<img src="./images/BJ-8.jpg" alt="BJ">
+	</div>
+	
+	<script>
+		document.body.onmousemove = function (e){
+			this.style.perspectiveOrigin = "" + e.pageX + "px" + e.pageY + "px";
+			// console.log(e.pageX + "px" + e.pageY + "px");
+			// console.log("something wrong");
+		}
+
+		console.log("引入成功");
+	</script>
+
+</body>
+</html>
